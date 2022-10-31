@@ -6,173 +6,44 @@
   } 
   
   html {
-    font-family: "Helvetica";
-    font-size: 22px;
-    color: seashell;
+    font-family: "Verdana";
+    font-size: 16px;
+    color: white;
     background-color: black;
-    opacity: 0.9;
-  }
-  
-  
-  .center {
     text-align: center;
   }
-  
-  
-  .image-container {
-    overflow: hidden;
-  }
-  
-  .image-container img {
-    display: block;
-  }
-  
-  h2, h4{
-    padding: 10px 0;
-  }
-  
+    
   
   /* Header */
   
   header {
-    position: fixed;
-    z-index: 1;
-    width: 100%;
-    border-bottom: solid 1px seashell;
-    background-color: black;
-    height: 69px;
-    align-items: center;
-    display: flex;
+  font-size: 3.125rem;
   }
   
-  header .content {
-    display: flex;
-    align-items: center;
-    max-height: 100%;
-    width:100%;
-    padding: 0 10px;
+
+  
+  /* link download*/
+  
+  #link-download {
+    color: aquamarine;
   }
-  
-  header .logo {
-    flex: 1;
-    vertical-align: middle;
+
+  /* Personal Guide section*/
+  #personal-guide-section{
+    font-size: 2.625rem;
+    font-weight: 300;
   }
-  
-  header img{
-    height: 50px;
-    vertical-align: middle;
+
+  /* Excursion Description section*/
+  #excursion-description-section{
+    color: gray;
+    font-size: 1.3125rem;
   }
-  
-  header nav ul {
-    display: flex;
-    list-style-type: none;
+
+  #coming-soon-section{
+    font-size: 2.625rem;
+    font-weight: 300;
   }
-  
-  nav li {
-    padding-left: 1.5rem;
-  }
-  
-  nav a {
-    vertical-align: middle;
-    color: seashell;
-  }
-  
-  .main-content {
-    position: relative;
-    top: 69px; /* To offset for fixed header. */
-  }
-  
-  /* Our Mission Section*/
-  
-  #our-mission-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 1200px;
-    height: 700px;
-    background-image: url("../images/img-mission-background.jpg");
-    background-size: cover;
-    background-position: center;
-    margin: 0 auto;
-    border-top: solid 1px seashell;
-  }
-  
-  #our-mission-section .mission-content{
-    background-color: black;
-    width: 1200px;
-  }
-  
-  
-  /* Tea of the Month Section */
-  
-  #theteaofthemonth-section{
-    margin: 80px auto 40px;
-  }
-  
-  #features-section {
-    display: flex;
-    justify-content:center;
-    
-    flex-wrap: wrap;
-   
-  
-  }
-  
-  .feature {
-    padding: 0;
-    margin: 10px 25px;
-    /*height: 39.6875rem;*/
-  
-    
-  }
-  
-  .image-container img{
-   max-width: 300px;
-    max-height: 200px;
-  }
-  
-  
-  /* Location Section */
-  
-  #location-section {
-    background-image: url("../images/img-locations-background.jpg");
-    background-size: cover;
-    background-position: right 50% bottom 70%;
-    height: 500px;  
-    
-  }
-  #locations-container{
-    display: flex;
-    justify-content: center;
-  
-  }
-  
-  #location-section .location-content {
-    text-align: center;
-    padding-top: 50px;
-  }
-  
-   .location-container{
-    background-color: black;
-    opacity: 1;
-    text-align: center;
-    padding: 0;
-    margin: 15px 20px;
-    width: 300px;
-  }
-  
-  #locations-container h3, p{
-    padding: 20px 0;
-  }
-  
-  /* Contact Section */
-  
-  #contact-section h5{
-    padding: 20px 0;
-  }
-  
-  
-  
   
   
   /* Footer */
@@ -183,16 +54,8 @@
   
   footer .content {
     font-weight: bold;
-    text-align: left;
+    text-align: right;
     margin-left: 20px;
+    color: gray
   }
   
-  
-  /*@media only screen and (min-width: 760px) {
-    footer .content {
-      font-size: .625rem;
-    }
-    footer .copyright {
-      flex: 0 1 auto;
-    }
-  }*/
