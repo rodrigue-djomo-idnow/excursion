@@ -17,7 +17,8 @@
   /* Header */
   
   header {
-  font-size: 3.125rem;
+    margin: 20px auto;
+    font-size: 3.125rem;
   }
   
 
@@ -25,22 +26,29 @@
   /* link download*/
   
   #link-download {
-    color: aquamarine;
+    margin: 10px auto;
+    color: aquamarine !important;
   }
 
   /* Personal Guide section*/
   #personal-guide-section{
+    margin: 15px auto;
     font-size: 2.625rem;
     font-weight: 300;
   }
 
   /* Excursion Description section*/
   #excursion-description-section{
+    margin: 10px auto;
     color: gray;
     font-size: 1.3125rem;
   }
 
+  #phone-icon-section{
+    margin: 10px auto;
+  }
   #coming-soon-section{
+    margin: 15px auto;
     font-size: 2.625rem;
     font-weight: 300;
   }
@@ -55,7 +63,7 @@
   footer .content {
     font-weight: bold;
     text-align: right;
-    margin-left: 20px;
+    margin-right: 20px;
     color: gray
   }
   
